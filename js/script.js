@@ -42,7 +42,7 @@ window.onload = function () {
 
                 interval = setInterval(function () {
 
-                    minutes = parseInt(count / 60, 10)
+                    minutes = parseInt(count / 60, 10);
                     seconds = parseInt(count % 60, 10);
 
                     minutes = minutes < 10 ? "0" + minutes : minutes;
